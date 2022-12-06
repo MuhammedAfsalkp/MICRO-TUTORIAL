@@ -1,0 +1,21 @@
+{
+  "name": "node-mail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node   index.js"
+  },
+  "author": "afsal",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1223.0",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "nanoid": "^4.0.0",
+    "nodemailer": "^6.7.8",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "sib-api-v3-sdk": "^8.4.2"
+  }
+}

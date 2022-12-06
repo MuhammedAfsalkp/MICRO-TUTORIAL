@@ -1,0 +1,14 @@
+
+
+
+                 SMTP
+1.   nodeapp      --->      Email server  -->(Email server responsible for sending email to recipient)   noemailer
+
+                HTTP                                    SMTP
+2.  nodeapp      --->      Email Delivery service       --->     Email Server(Sometime they have(service) their own Email server)    sendGrid
+
+* creating manual mail server is complex task,security...
+* so use third partice services(Email delivery service) -eg:-aws,sendgrid,scs,MailChimp
+
+
+
